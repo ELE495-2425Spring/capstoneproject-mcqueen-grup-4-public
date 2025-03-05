@@ -65,8 +65,8 @@ python src/main.py
 
 ## Team Members
 
-201201022 - Celal Efe Çin
-201201039 - Mehmet Mert Ataman
-201201055 - Yalın Hoşgör
-201201068 - Reşat Gökay Yiğit
-211201068 - Ali Murat Büyükaşık
+- 201201022 Celal Efe Çin
+- 201201039 Mehmet Mert Ataman
+- 201201055 Yalın Hoşgör
+- 201201068 Reşat Gökay Yiğit
+- 211201068 Ali Murat Büyükaşık

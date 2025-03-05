@@ -532,8 +532,6 @@ class MainWindow(QMainWindow):
         if signal is not None and len(signal) > 0:
             self.update_plot(signal)
             signal = None
-        else:
-            print("Signal boş veya tanımsız, FFT hesaplanamıyor.")
 
     def update_direction(self):
         global index, update_index

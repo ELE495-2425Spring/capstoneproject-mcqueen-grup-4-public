@@ -1,40 +1,72 @@
-# TOBB ETÜ ELE495 - Capstone Project
+# Signal Reciver Finder (Faster Than Lightning)
 
-# Table of Contents
-- [Introduction](#introduction)
-- [Features](#features)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Screenshots](#screenshots)
-- [Acknowledgements](#acknowledgements)
+ELE495 Senior Project - Embedded component for an autonomous signal transmitter finding vehicle.
 
-## Introduction
-Provide a brief overview of the project, its purpose, and what problem it aims to solve.
+## Overview
+
+This project implements a signal direction finding system using a desktop app. The vehicle autonomously scans for radio signals, determines the strongest signal direction, and navigates toward the signal source.
 
 ## Features
-List the key features and functionalities of the project.
-- Hardware: The hardware components used (should be listed with links)
-- Operating System and packages
-- Applications 
-- Services 
 
-## Installation
-Describe the steps required to install and set up the project. Include any prerequisites, dependencies, and commands needed to get the project running.
+- Full 360° and targeted half-scan signal detection
+- PID-controlled precision movement
+- Bluetooth connectivity for remote control and data visualization
+- Real-time signal strength visualization
+- Gyroscope-based direction sensing
+
+## Hardware Requirements
+
+- Raspberry Pi
+- RTL-SDR USB receiver and Antenna
+- MPU6050 gyroscope
+- DC motors with L298N motor driver
+- Power supply
+
+## Software Dependencies
+
+Install required Python packages:
 
 ```bash
-# Example commands
-git clone https://github.com/username/project-name.git
-cd project-name
+pip install -r requirements.txt
 ```
 
-## Usage
-Provide instructions and examples on how to use the project. Include code snippets or screenshots where applicable.
+## Getting Started
 
-## Screenshots
-Include screenshots of the project in action to give a visual representation of its functionality. You can also add videos of running project to YouTube and give a reference to it here. 
+1. Connect all hardware components according to your pin configuration
+2. Install required dependencies
+3. Run the embedded application:
 
-## Acknowledgements
-Give credit to those who have contributed to the project or provided inspiration. Include links to any resources or tools used in the project.
+```bash
+python src/main.py
+```
 
-[Contributor 1](https://github.com/user1)
-[Resource or Tool](https://www.nvidia.com)
+4. Connect to the system using the companion app
+
+## Project Structure
+
+- `lib/`: Core libraries for hardware interaction
+  - `BluetoothModule.py`: Handles Bluetooth communication
+  - `CircularBuffer.py`: Implements data buffer for signal processing
+  - `Gyroscope.py`: Interfaces with MPU6050
+  - `PIDController.py`: PID controller for movement precision
+  - `SDRModule.py`: Software Defined Radio interface
+  - `Vehicle.py`: Motor control and movement functions
+- `src/`: Source code
+  - `main.py`: Main application entry point
+  - `test/`: Test scripts for individual components
+
+## Project Demo
+
+[Video demonstration will be added here]
+
+## Project Photos
+
+[Photos of the completed system will be added here]
+
+## Team Members
+
+201201022 - Celal Efe Çin
+201201039 - Mehmet Mert Ataman
+201201055 - Yalın Hoşgör
+201201068 - Reşat Gökay Yiğit
+211201068 - Ali Murat Büyükaşık

@@ -60,7 +60,7 @@ python src/main.py
 [Video demonstration will be added here]
 
 ## Project Photos
-![Araba (1) Photo](https://raw.githubusercontent.com/ELE495-2425Spring/capstoneproject-mcqueen-grup-4/main/images%20and%20video/araba%20(1).jpg)
+![Araba (1) Photo](https://github.com/ELE495-2425Spring/capstoneproject-mcqueen-grup-4/blob/main/images%20and%20video/araba%20(1).jpg?raw=true)
 [Photos of the completed system will be added here]
 
 ## Team Members

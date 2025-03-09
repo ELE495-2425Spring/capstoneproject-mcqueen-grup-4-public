@@ -58,6 +58,8 @@ python src/main.py
 ## Project Demo
 
 [Video demonstration will be added here]
+![Video](https://github.com/ELE495-2425Spring/capstoneproject-mcqueen-grup-4/blob/main/images%20and%20video/WhatsApp%20Video%202025-03-07%20at%2018.20.57_f3115946.mp4)
+Video
 
 ## Project Photos
 ![Vehicle Photo](https://github.com/ELE495-2425Spring/capstoneproject-mcqueen-grup-4/blob/main/images%20and%20video/araba%20(1).jpg?raw=true)

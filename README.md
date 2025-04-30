@@ -61,10 +61,10 @@ python src/main.py
 Video
 
 ## Project Photos
-![Vehicle Photo](https://github.com/ELE495-2425Spring/capstoneproject-mcqueen-grup-4/blob/main/images%20and%20video/araba%20(1).jpg?raw=true)
+![Vehicle Photo](grup-4-car.jpg)
 Vehicle Photo
 
-![Desktop App Photo](https://github.com/ELE495-2425Spring/capstoneproject-mcqueen-grup-4/blob/main/images%20and%20video/uygulama_1.png)
+![Desktop App Photo](grup-4-app.png)
 Desktop App Photo
 
 ## Team Members
